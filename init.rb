@@ -2,11 +2,11 @@ require 'redmine'
 
 Redmine::Plugin.register :redmine_grack do
   name 'Redmine Grack plugin'
-  author 'Author name'
-  description 'This is a plugin for Redmine'
+  author 'Mrugesh Karnik'
+  description 'Redmine authentication for Grack'
   version '0.0.1'
-  url 'http://example.com/path/to/plugin'
-  author_url 'http://example.com/about'
+  url 'https://github.com/brainfunked/redmine_grack'
+  author_url 'http://brainfunked.org'
 
   #project_module :grack do
     #permission :commit_access, :grack => :rw
